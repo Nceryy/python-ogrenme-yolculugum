@@ -25,7 +25,6 @@ Python öğrenirken yazdığım küçük uygulamalar, oyunlar ve matematik alı�
 | [Alışveriş listesi](kucuk-uygulamalar/alisveris_listesi.py) | Ürün ekleme, görüntüleme ve silme işlemleri yapar. | Listeler, menüler |
 | [Alışveriş tutarı](kucuk-uygulamalar/alisveris_tutari.py) | Ürün fiyatlarını toplar; 500 TL ve üzeri için %10 indirim uygular. | Giriş doğrulama, hesaplama |
 | [Harf kontrolü](kucuk-uygulamalar/harf_kontrolu.py) | Girilen karakterin büyük/küçük ve sesli/sessiz harf olduğunu söyler. | Metin metotları, koşullar |
-| [Sıcaklık ölçümleri](kucuk-uygulamalar/sicaklik_olcumleri.py) | Ölçümlerin en yükseğini, ortalamasını ve donma sayısını bulur. | Döngüler, sayaçlar |
 
 ### 🎮 Oyunlar
 
@@ -59,6 +58,24 @@ Derste çözdüğüm koşul soruları.
 | --- | --- | --- |
 | [Para biriktirme](for-projeleri/14_para_biriktirme.py) | Günlük birikimlerle hedefe kaçıncı gün ulaşıldığını bulur. | `for`, toplam tutma |
 | [Öğrenci notu](for-projeleri/15_ogrenci_notu.py) | En yüksek notu, onu ilk alan öğrenciyi ve kaç kişinin aldığını bulur. | `for`, en büyük değer, sayaç |
+| [3'e bölünenlerin toplamı](for-projeleri/16_uce_bolunenlerin_toplami.py) | 1'den N'e kadar 3'e tam bölünen sayıları toplar. | `for`, mod alma |
+| [Tek-çift sayacı](for-projeleri/17_tek_cift_sayaci.py) | Her sayının tek mi çift mi olduğunu yazar ve sayar. | `for`, sayaçlar |
+| [Sınıf ortalaması](for-projeleri/18_sinif_ortalamasi.py) | 5 öğrencinin not ortalamasını bulup sınıfın başarısını söyler. | `for`, ortalama |
+| [Artan/azalan sayma](for-projeleri/19_artan_azalan_sayma.py) | Başlangıç ve bitişe göre ileri ya da geri sayar. | `range` adımı |
+| [4'ün veya 6'nın katları](for-projeleri/20_dort_veya_alti_kati.py) | 4'e veya 6'ya bölünen sayıları yazar ve sayar. | `or`, mod alma |
+| [Çift-tek toplam farkı](for-projeleri/21_cift_tek_toplam_farki.py) | Tek döngüde çift ve tek sayıların toplamını ve farkını bulur. | `for`, toplam tutma |
+| [Bölenler ve asallık](for-projeleri/22_bolenler_ve_asallik.py) | Sayının bölenlerini listeler, sayar ve asal olup olmadığını söyler. | `for`, bölünebilme |
+| [7'ye bölünen tek sayılar](for-projeleri/23_yediye_bolunen_tek_sayilar.py) | Aralıktaki 7'ye bölünen tek sayıların adedini, toplamını ve ortalamasını bulur. | `and`, ortalama |
+| [Üs alma](for-projeleri/24_us_alma.py) | `**` kullanmadan, döngüyle çarparak üs hesaplar. | `for`, çarpım tutma |
+| [En büyük ve en küçük](for-projeleri/25_en_buyuk_en_kucuk.py) | `max()`/`min()` kullanmadan en büyük, en küçük, toplam ve ortalamayı bulur. | `for`, karşılaştırma |
+| [Üç-Beş](for-projeleri/26_uc_bes.py) | 3'e ve 5'e bölünmeye göre "Üç", "Beş", "Üç-Beş" yazar ve sayar. | `if/elif` sırası |
+| [Hedefli birikim](for-projeleri/27_hedefli_birikim.py) | Aylık birikimlerle en çok biriktirilen ayı ve hedefe ilk ulaşılan ayı bulur. | `for`, birden çok takip |
+| [Yoklama listesi](for-projeleri/28_yoklama_listesi.py) | Sınıf mevcuduna göre öğrenci numaralarını listeler. | `for` |
+| [Artan birikim planı](for-projeleri/29_artan_birikim_plani.py) | Her ay artan birikimi ve toplamı aylık olarak gösterir. | `for`, artış |
+| [Sınav geri sayacı](for-projeleri/30_sinav_geri_sayaci.py) | Sınav süresini duyuru aralığıyla geri sayar. | Negatif `range` adımı |
+| [Haftalık çalışma çizelgesi](for-projeleri/31_haftalik_calisma_cizelgesi.py) | Hafta içi çalışma saatlerini toplar, hafta sonunu dinlenme olarak yazar. | `for`, ortalama |
+| [Market ürün etiketleri](for-projeleri/32_market_urun_etiketleri.py) | Ürün kodlarını yazar, 5'e bölünenleri indirimli olarak işaretler. | `for`, mod alma |
+| [Sıcaklık ölçümleri](for-projeleri/33_sicaklik_olcumleri.py) | En yüksek sıcaklığı, ortalamayı ve donma ölçümü sayısını bulur. | `for`, sayaçlar |
 
 ### 💵 Para ve kutulama
 
@@ -143,7 +160,6 @@ Aşağıdaki komutlardan istediğin **birini** proje klasöründe açık olan te
 | Alışveriş listesi | `python kucuk-uygulamalar/alisveris_listesi.py` |
 | Alışveriş tutarı | `python kucuk-uygulamalar/alisveris_tutari.py` |
 | Harf kontrolü | `python kucuk-uygulamalar/harf_kontrolu.py` |
-| Sıcaklık ölçümleri | `python kucuk-uygulamalar/sicaklik_olcumleri.py` |
 | Üçgen oluşturma (örnek if projesi) | `python if-projeleri/07_ucgen_olusturma.py` |
 | Öğrenci notu (örnek for projesi) | `python for-projeleri/15_ogrenci_notu.py` |
 | ATM (for ile) | `python para-ve-kutulama/atm_for_ile.py` |
