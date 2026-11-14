@@ -24,12 +24,58 @@ Python öğrenirken yazdığım küçük uygulamalar, oyunlar ve matematik alı�
 | --- | --- | --- |
 | [Alışveriş listesi](kucuk-uygulamalar/alisveris_listesi.py) | Ürün ekleme, görüntüleme ve silme işlemleri yapar. | Listeler, menüler |
 | [Alışveriş tutarı](kucuk-uygulamalar/alisveris_tutari.py) | Ürün fiyatlarını toplar; 500 TL ve üzeri için %10 indirim uygular. | Giriş doğrulama, hesaplama |
+| [Harf kontrolü](kucuk-uygulamalar/harf_kontrolu.py) | Girilen karakterin büyük/küçük ve sesli/sessiz harf olduğunu söyler. | Metin metotları, koşullar |
+| [Sıcaklık ölçümleri](kucuk-uygulamalar/sicaklik_olcumleri.py) | Ölçümlerin en yükseğini, ortalamasını ve donma sayısını bulur. | Döngüler, sayaçlar |
 
 ### 🎮 Oyunlar
 
 | Dosya | Ne yapar? | Çalışılan konu |
 | --- | --- | --- |
 | [Sayı tahmin oyunu](oyunlar/sayi_tahmin_oyunu.py) | Beş hak içinde 1–50 arasındaki gizli sayıyı bulmaya çalışırsın. | Rastgele sayılar, döngüler |
+
+### 🔀 If projeleri
+
+Derste çözdüğüm koşul soruları.
+
+| Dosya | Ne yapar? | Çalışılan konu |
+| --- | --- | --- |
+| [Fotokopi ücreti](if-projeleri/01_fotokopi.py) | Sayfa sayısına göre kademeli fotokopi ücretini hesaplar. | Kademeli koşullar |
+| [Oyuncu eşleştirme](if-projeleri/02_oyuncu_eslestirme.py) | Puan farkı ve bekleme süresine göre iki oyuncunun eşleşip eşleşmeyeceğini söyler. | Mantıksal operatörler |
+| [Depo robotu](if-projeleri/03_depo_robotu.py) | Paketin ağırlığına ve koridorların durumuna göre koridor seçer. | İç içe koşullar |
+| [Jüri değerlendirmesi](if-projeleri/04_juri_degerlendirme.py) | Jüri puanlarına göre finale kalma, yedek ya da elenme kararı verir. | Koşullar, ortalama |
+| [Otel girişi](if-projeleri/05_otel_saati.py) | Saate, bakım durumuna ve rezervasyona göre girişe izin verir. | Mantıksal operatörler |
+| [Etkinlik kapsama](if-projeleri/06_kapsama.py) | İki etkinliğin saatlerinin çakışıp çakışmadığını bulur. | Aralık karşılaştırma |
+| [Üçgen oluşturma](if-projeleri/07_ucgen_olusturma.py) | Üç kenarla üçgen oluşup oluşmadığını ve türünü bulur. | Üçgen eşitsizliği |
+| [Kargo firması](if-projeleri/08_kargo_firmasi.py) | Ağırlık, mesafe ve kırılabilirliğe göre uygun kargo firmasını seçer. | Koşullar |
+| [Sensör kontrolü](if-projeleri/09_sensor.py) | Üç sensör ölçümünün birbiriyle tutarlı olup olmadığını kontrol eder. | `abs()`, koşullar |
+| [Sinema bileti](if-projeleri/10_sinema.py) | Yaş, öğrencilik ve 3D seçimine göre bilet fiyatını ve bütçeyi hesaplar. | İç içe koşullar |
+| [Alışveriş indirimi](if-projeleri/11_alisveris.py) | Üyelik ve kupona göre indirimli tutarı hesaplar. | Koşullar, hesaplama |
+| [Spor salonu](if-projeleri/12_spor_salonu.py) | Yaş, öğrencilik ve dolap kirasına göre giriş ücretini hesaplar. | İç içe koşullar |
+| [Kulaklık kiralama](if-projeleri/13_kulaklik.py) | Saatlik ücret, üst sınır ve kulaklık kirasıyla toplam ödemeyi hesaplar. | İç içe koşullar |
+
+### 🔁 For projeleri
+
+| Dosya | Ne yapar? | Çalışılan konu |
+| --- | --- | --- |
+| [Para biriktirme](for-projeleri/14_para_biriktirme.py) | Günlük birikimlerle hedefe kaçıncı gün ulaşıldığını bulur. | `for`, toplam tutma |
+| [Öğrenci notu](for-projeleri/15_ogrenci_notu.py) | En yüksek notu, onu ilk alan öğrenciyi ve kaç kişinin aldığını bulur. | `for`, en büyük değer, sayaç |
+
+### 💵 Para ve kutulama
+
+Aynı problemin önce yalnızca `if` ile, sonra `for` döngüsüyle yazılmış hâlleri.
+
+| Dosya | Ne yapar? | Çalışılan konu |
+| --- | --- | --- |
+| [ATM](para-ve-kutulama/atm.py) | Çekilen parayı en az sayıda banknotla verir. | Tam bölme, kalan |
+| [ATM (for ile)](para-ve-kutulama/atm_for_ile.py) | Aynı ATM problemi, banknot listesi üzerinde döngüyle. | `for`, listeler |
+| [Ürün kutulama](para-ve-kutulama/urun_kutu.py) | Ürünleri 24'lük, 6'lık ve tekli kutulara dağıtır. | Tam bölme, kalan |
+| [Ürün kutulama (for ile)](para-ve-kutulama/urun_kutu_for_ile.py) | Aynı kutulama problemi, döngüyle. | `for`, listeler |
+
+### 🧩 Project Euler
+
+| Dosya | Ne yapar? | Çalışılan konu |
+| --- | --- | --- |
+| [Problem 1](project-euler/problem_001.py) | 1000'in altındaki 3'ün veya 5'in katlarının toplamını bulur. | `for`, mod alma |
 
 ## 🚀 Nasıl çalıştırılır?
 
@@ -54,13 +100,13 @@ Python öğrenirken yazdığım küçük uygulamalar, oyunlar ve matematik alı�
 1. [Deponun ana sayfasında](https://github.com/Nceryy/python-ogrenme-yolculugum) yeşil **Code** düğmesine tıkla.
 2. **Download ZIP** seçeneğini seç.
 3. İndirilen ZIP dosyasına sağ tıklayıp **Tümünü ayıkla** seçeneğiyle dosyaları bir klasöre çıkar.
-4. Çıkardığın klasörün içindeki `python-ogrenme-yolculugum-main` klasörünü aç. Burada `README.md`, `matematik`, `kucuk-uygulamalar` ve `oyunlar` birlikte görünmeli.
+4. Çıkardığın klasörün içindeki `python-ogrenme-yolculugum-main` klasörünü aç. Burada `README.md` dosyasını ve `matematik`, `kucuk-uygulamalar`, `oyunlar`, `if-projeleri`, `for-projeleri`, `para-ve-kutulama`, `project-euler` klasörlerini görmelisin.
 
 ### 3. Terminali proje klasöründe aç
 
 Windows Dosya Gezgini'nde bu klasör açıkken üstteki **adres çubuğuna** tıkla, `powershell` yaz ve **Enter** tuşuna bas. Böylece terminal doğrudan proje klasöründe açılır.
 
-Doğru yerde olduğunu kontrol etmek için `dir` yazabilirsin. Listede üç proje klasörünü ve `README.md` dosyasını görmelisin.
+Doğru yerde olduğunu kontrol etmek için `dir` yazabilirsin. Listede yedi proje klasörünü ve `README.md` dosyasını görmelisin.
 
 ### 4. İlk programını çalıştır
 
@@ -96,6 +142,12 @@ Aşağıdaki komutlardan istediğin **birini** proje klasöründe açık olan te
 | Karekök kontrolü | `python matematik/karekok_kontrolu.py` |
 | Alışveriş listesi | `python kucuk-uygulamalar/alisveris_listesi.py` |
 | Alışveriş tutarı | `python kucuk-uygulamalar/alisveris_tutari.py` |
+| Harf kontrolü | `python kucuk-uygulamalar/harf_kontrolu.py` |
+| Sıcaklık ölçümleri | `python kucuk-uygulamalar/sicaklik_olcumleri.py` |
+| Üçgen oluşturma (örnek if projesi) | `python if-projeleri/07_ucgen_olusturma.py` |
+| Öğrenci notu (örnek for projesi) | `python for-projeleri/15_ogrenci_notu.py` |
+| ATM (for ile) | `python para-ve-kutulama/atm_for_ile.py` |
+| Project Euler 1 | `python project-euler/problem_001.py` |
 
 **Küçük bir deneme:** Fibonacci programını başlatıp kaç terim istediği sorulduğunda `7` yaz. Ekranda `[0, 1, 1, 2, 3, 5, 8]` dizisini görmelisin.
 
@@ -114,6 +166,7 @@ Aşağıdaki komutlardan istediğin **birini** proje klasöründe açık olan te
 ## 🌱 Bu depoda neler öğreniyorum?
 
 - Değişkenler, koşullar ve döngüler
+- Aynı problemi önce `if`, sonra `for` ile çözüp karşılaştırmak
 - Listeler ve kullanıcıdan veri alma
 - Basit algoritmalar ve hata durumlarını düşünme
 - Kodları okunabilir klasörler ve açıklamalarla paylaşma
