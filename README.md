@@ -187,4 +187,14 @@ Aşağıdaki komutlardan istediğin **birini** proje klasöründe açık olan te
 - Basit algoritmalar ve hata durumlarını düşünme
 - Kodları okunabilir klasörler ve açıklamalarla paylaşma
 
+## 🤖 Yapay zeka kullanımı
+
+Bu depodaki kodların büyük çoğunluğunu kendim yazdım. Yalnızca `math` modülünü kullanan birkaç projede yapay zekadan (ChatGPT) yardım aldım:
+
+- [İkinci dereceden denklem](matematik/ikinci_dereceden_denklem.py)
+- [EBOB ve EKOK](matematik/ebob_ekok.py)
+- [Karekök kontrolü](matematik/karekok_kontrolu.py)
+
+README dosyaları ve klasör düzeni de yapay zeka yardımıyla hazırlandı.
+
 Bu projeler öğrenme amaçlıdır. Geliştirdikçe yeni örnekler ve iyileştirmeler ekleyeceğim.
